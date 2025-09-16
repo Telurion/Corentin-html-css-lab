@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img class="main-banner" src="./assets/images/su_banner.gif" alt="Main banner - file:su_banner.gif">
+            <nav id="main-nav">
+                <a href="./index.html">Home</a>
+                <a href="./about.html">About Us</a>
+                <a href="./services.html">Our Serices</a>
+                <a href="./contact.html">Contact Us</a>
+            </nav>
+        </header>
+
+        <h2>Contact Us :</h2>
+        <form>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="fname">First name : *</label>
+                <input type="text" id="fname" name="fname" maxlength="25" required><br><br>
+
+                <label for="lname">Last name : *</label>
+                <input type="text" id="lname" name="lname" maxlength="25" required><br><br>
+                
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" maxlength="35" required><br><br>
+
+                <p>Please select the music genre(s) that you like :</p>
+                <input type="checkbox" id="classic-music" name="classic-music" value="classic-music">
+                <label for="classic-music">Classic</label><br>
+                
+                <input type="checkbox" id="jazz-music" name="jazz-music" value="jazz-music">
+                <label for="jazz-music">Jazz</label><br>
+                
+                <input type="checkbox" id="blues-music" name="blues-music" value="blues-music">
+                <label for="blues-music">Blues</label><br>
+                
+                <input type="checkbox" id="instrumental-music" name="instrumental-music" value="instrumental-music">
+                <label for="instrumental-music">Instrumental</label><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Your message:</legend>
+
+                <label for="were_from">How did you hear about us?</label>
+                <select name="were_from" id="were_from">
+                    <option value="website">Our website</option>
+                    <option value="friend">Friend</option>
+                    <option value="tv">TV Adv.</option>
+                    <option value="other">Other</option>
+                </select><br><br>
+
+
+                <label>Would you recommend us to your friends?</label> <br>
+                <input type="radio" id="yes" name="recommendation" value="Yes"/>
+                <label for="yes">Yes</label>
+
+                <input type="radio" id="no" name="recommendation" value="No"/>
+                <label for="no">No</label>
+
+                <input type="radio" id="maybe" name="recommendation" value="Maybe"/>
+                <label for="maybe">Maybe</label><br><br>
+
+                <label for="request">Your request :</label><br>
+                <textarea id="request"></textarea><br><br>
+
+                <input type="checkbox" id="email_updates" name="email_updates" value="email_updates">
+                <label for="email_updates">Sign me up for email updates</label><br>
+
+                <input type="submit" value="Submit"/>
+
+            </fieldset>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2611.558176669047!2d-79.39233542434182!3d43.67176055123104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2e0b64e1140d%3A0xd11156503e310196!2sSpa%20at%20Four%20Seasons%20Toronto!5e1!3m2!1sfr!2sca!4v1758032509101!5m2!1sfr!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </form>
+    </div>
+
+    <footer>Copyright &#169; 2025 ILAC and EFREI Paris - HTML-CSS major lab-work - created by: Corentin Monsallier - All rights reserved</footer>    
+</body>
+</html>
